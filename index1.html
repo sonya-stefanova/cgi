@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notification Form</title>
+</head>
+<body>
+    <form action="http://localhost/cgi-bin/validate_notification.cgi" method="post">
+        <label for="user_name">User Name:</label>
+        <input type="text" id="user_name" name="user_name" required><br><br>
+
+        <label for="notify_me">Notify Me (mandatory but value is optional):</label>
+        <input type="text" id="notify_me" name="notify_me"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
